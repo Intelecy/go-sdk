@@ -1264,6 +1264,9 @@ type Implementation struct {
 	WebsiteURL string `json:"websiteUrl,omitempty"`
 	// Icons for the Server, if any.
 	Icons []Icon `json:"icons,omitempty"`
+
+	Description string `json:"description,omitempty"`
+	WebsiteURL  string `json:"websiteUrl,omitempty"`
 }
 
 // CompletionCapabilities describes the server's support for argument autocompletion.
